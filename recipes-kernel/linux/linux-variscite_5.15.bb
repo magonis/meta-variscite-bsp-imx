@@ -20,7 +20,7 @@ RRECOMMENDS:${KERNEL_PACKAGE_NAME}-base = ""
 
 DEFAULT_PREFERENCE = "1"
 
-KERNEL_SRC ?= "git://github.com/varigit/linux-imx;protocol=https"
+KERNEL_SRC ?= "git://github.com/magonis/linux-imx;protocol=https"
 
 SRCBRANCH = "5.15-2.0.x-imx_var01"
 SRCREV = "740e6c7a7b0972255c11686d4041ad629ab3f361"
